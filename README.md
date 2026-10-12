@@ -2,9 +2,9 @@
 Pareja: David C y Faisal · GitHub: IZialexI, faisxl20
 
 ## Reto 1 · Compilar desde la terminal
-- Comando usado y resultado (captura: capturas/reto1.png)
-- ¿Qué es Factura.java? ¿Y Factura.class? ¿Quién ejecuta el .class?
-- ¿Por qué no se ha generado Factura.class la primera vez?
+- Comando usado y resultado (captura: capturas/reto1.png) javac Factura.java, la captura pues está en capturas
+- ¿Qué es Factura.java? ¿Y Factura.class? ¿Quién ejecuta el .class? Factura.java es el código fuente, el que editamos nosotros, y Factura.class es el bytecode, el archivo que ejecuta la JVM (Java Virtual Machine)
+- ¿Por qué no se ha generado Factura.class la primera vez? no se ha generado, porque hay errores en el código, entonces no compila
 
 ## Reto 2 · Errores de compilación
 | Nº | Línea | Mensaje de javac | Tipo (léxico / sintaxis / semántica) | Corrección |
