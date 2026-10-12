@@ -7,18 +7,18 @@ Pareja: David C y Faisal · GitHub: IZialexI, faisxl20
 - ¿Por qué no se ha generado Factura.class la primera vez? no se ha generado, porque hay errores en el código, entonces no compila
 
 ## Reto 2 · Errores de compilación
-| Nº | Línea | Mensaje de javac | Tipo (léxico / sintaxis / semántica) | Corrección |
-|----|-------|------------------|--------------------------------------|------------|
-| 1  |       |                  |                                      |            |
-| 2  |       |                  |                                      |            |
-| 3  |       |                  |                                      |            |
+| Nº | Línea | Mensaje de javac     | Tipo (léxico / sintaxis / semántica) | Corrección  |
+|----|-------|----------------------|--------------------------------------|-------------|
+| 1  |  15   |illegal character: '#'|Léxico: Caracter inválido en el nombre|Eliminar '#' |
+| 2  |  17   |    ';' expected      |Sintáctico: Falta ';', es obligatorio |Añadir ';'   |
+| 3  |       |  incompatible types  |   Semántico: Comprobación de tipos   |int -> double|
 Captura del programa funcionando: capturas/reto2.png
-
+(En la captura incluyo el error en el cálculo)
 ## Reto 3 · Depuración del error lógico
-| Variable | Valor esperado | Valor real |
-|----------|----------------|------------|
-| descuento |               |            |
-| total     |               |            |
+| Variable  | Valor esperado | Valor real |
+|-----------|----------------|------------|
+| descuento |                |            |
+| total     |                |            |
 - Línea del error y explicación:
 - Corrección:
 - Mi propia prueba (producto, precio, cantidad, socio → total):
