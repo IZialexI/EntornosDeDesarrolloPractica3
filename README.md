@@ -32,7 +32,13 @@ Captura del depurador: capturas/reto3.png
 
 ## Reto 4 · Reutilización
 - Métodos creados y para qué sirve cada uno:
+    calcularDescuento: Con el total y si es socio, calcula el descuento
+    aplicarIVA: Con el total y el IVA, aplica el IVA
+    pedirDecimal: Con un mensaje y el Scanner, pide un número
+(Son explicaciones muy sencillas, pero es que son funciones muy sencillas)
 - ¿Qué ventaja tiene frente al código anterior?
+Las operaciones principales están arriba del código, se ve claro y ordenado
+Puedes ahorrar mucho en código si el código se alarga
 
 ## Reto 5 · ¿Qué lenguaje elegirías?
 - Caso A (web de la tienda):
