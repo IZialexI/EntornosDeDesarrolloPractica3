@@ -24,7 +24,7 @@ public class Factura {
             descuento = base * 0.10;
         }
         if (socio.equals("s")) {
-            descuento = base * 0.05;
+            descuento = descuento + (base * 0.05);
         }
         double total = (base - descuento) * (1 + IVA);
 

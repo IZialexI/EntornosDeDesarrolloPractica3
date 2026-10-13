@@ -17,11 +17,17 @@ Captura del programa funcionando: capturas/reto2.png
 ## Reto 3 · Depuración del error lógico
 | Variable  | Valor esperado | Valor real |
 |-----------|----------------|------------|
-| descuento |                |            |
-| total     |                |            |
-- Línea del error y explicación:
-- Corrección:
+| descuento |      18.00     |    6.00    |
+| total     |     123.42     |   137.94   |
+- Línea del error y explicación: En la línea 27, el segundo condicional sobreescribía el valor de la variable `descuento` en lugar de sumarlo al descuento ya calculado en el primer condicional.
+- Corrección:Para corregirlo, se ha modificado esa línea en `Factura.java` para que el nuevo descuento del 5% se sume al descuento que ya teníamos acumulado. La línea corregida queda así:
+`descuento = descuento + (base * 0.05);`
 - Mi propia prueba (producto, precio, cantidad, socio → total):
+Producto: Raqueta
+Precio: 60
+Cantidad: 2
+Socio: S
+Total: 123.42
 Captura del depurador: capturas/reto3.png
 
 ## Reto 4 · Reutilización
