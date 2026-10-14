@@ -41,5 +41,9 @@ Las operaciones principales están arriba del código, se ve claro y ordenado
 Puedes ahorrar mucho en código si el código se alarga
 
 ## Reto 5 · ¿Qué lenguaje elegirías?
-- Caso A (web de la tienda):
-- Caso B (propuesta en ensamblador):
+- Caso A (web de la tienda): Lenguaje: Java Script.
+·Para el desarrollo en entorrnos web orientados en el navegador, lo mejor es utilizar lenguajes interpretados que se integren con HTML y LCSS. 
+·Al ser una página web, el código debe poder ejecutarse en los navegadores de clientes con diferentes ordenadores y sistemas operativos. Un lenguaje interpretado es independiente de la máquina y garantiza esta portabilidad.
+- Caso B (propuesta en ensamblador): Se debería de usar un lenguaje mixto como Java, no ensamblador.
+·El lenguaje ensamblador depende de la máquina y de la arquitectura específica del procesador. Si se compila para un procesador, no funcionará en otro distinto y no va a tener portabilidad.
+·Reescribir una aplicación de gestión matemática en ensamblador dispararía el coste de desarrollo y el tiempo de depuración de errores. El enrome esfuerzo solo merece la pena cuando se hacen programas que necesiten controlar el hardware al milímetro o exigen un rendimiento extremo, pero para una calculadora web, no merece la pena.
